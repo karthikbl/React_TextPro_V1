@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import React, { useState } from "react";
 import Alert from "./components/Alert";
+import About from "./components/About";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -40,6 +41,7 @@ function App() {
           heading="Enter the text to analyze below"
           mode={mode}
         />
+        {/* <About /> */}
       </div>
     </>
   );

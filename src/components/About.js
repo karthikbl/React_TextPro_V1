@@ -6,7 +6,7 @@ function About() {
     backgroundColor: "white",
   });
 
-  const [btnText, setBtnText] = useState("Enable Dark Mode");
+  const [btntext, setBtntext] = useState("Enable Dark Mode");
 
   const toggleStyle = () => {
     if (myStyle.color === "black") {
@@ -15,15 +15,16 @@ function About() {
         backgroundColor: "black",
         border: "1px solid white",
       });
-      setBtnText("Enable Light Mode");
+      setBtntext("Enable Light Mode");
     } else {
       setMyStyle({
         color: "black",
         backgroundColor: "white",
       });
-      setBtnText("Enable Dark Mode");
+      setBtntext("Enable Dark Mode");
     }
   };
+
   return (
     <div className="container" style={myStyle}>
       <h1 className="my-3">About Us</h1>
@@ -64,8 +65,8 @@ function About() {
           <h2 className="accordion-header" id="headingTwo">
             <button
               className="accordion-button collapsed"
-              type="button"
               style={myStyle}
+              type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="false"
@@ -96,8 +97,8 @@ function About() {
           <h2 className="accordion-header" id="headingThree">
             <button
               className="accordion-button collapsed"
-              type="button"
               style={myStyle}
+              type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
               aria-expanded="false"
@@ -125,13 +126,11 @@ function About() {
           </div>
         </div>
       </div>
-      <button
-        onClick={toggleStyle}
-        type="button"
-        className="btn btn-primary my-3"
-      >
-        {btnText}
-      </button>
+      <div className="container my-3">
+        <button onClick={toggleStyle} type="button" class="btn btn-primary">
+          {btntext}
+        </button>
+      </div>
     </div>
   );
 }

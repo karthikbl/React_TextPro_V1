@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React_TextPro_V1/static/css/main.c6df65f0.chunk.css",
+    "main.js": "/React_TextPro_V1/static/js/main.f3de1be4.chunk.js",
+    "main.js.map": "/React_TextPro_V1/static/js/main.f3de1be4.chunk.js.map",
+    "runtime-main.js": "/React_TextPro_V1/static/js/runtime-main.aaa0a281.js",
+    "runtime-main.js.map": "/React_TextPro_V1/static/js/runtime-main.aaa0a281.js.map",
+    "static/js/2.6f537489.chunk.js": "/React_TextPro_V1/static/js/2.6f537489.chunk.js",
+    "static/js/2.6f537489.chunk.js.map": "/React_TextPro_V1/static/js/2.6f537489.chunk.js.map",
+    "index.html": "/React_TextPro_V1/index.html",
+    "static/css/main.c6df65f0.chunk.css.map": "/React_TextPro_V1/static/css/main.c6df65f0.chunk.css.map",
+    "static/js/2.6f537489.chunk.js.LICENSE.txt": "/React_TextPro_V1/static/js/2.6f537489.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaa0a281.js",
+    "static/js/2.6f537489.chunk.js",
+    "static/css/main.c6df65f0.chunk.css",
+    "static/js/main.f3de1be4.chunk.js"
+  ]
+}
